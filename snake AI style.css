@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: rgb(21, 79, 116);
+}
+
+#grid {
+    width: 1250px;
+    height: 625px;
+    margin: auto;
+}
+
+.controls{
+    width: max-content;
+    margin: auto;
+}
+
+.node{
+    background-color: #1982C4;
+    
+    width: 25px;
+    height: 25px;
+    float: left;
+    
+    outline: 1px solid rgb(21, 79, 116);
+    
+}
+
+#message {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 0px 35px 5px 35px;
+
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+
+    border-style: solid;
+    border-color: #FF595E;
+    border-width: 0px;
+    border-bottom: 1px solid #FF595E;
+
+
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(21, 79, 116);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF595E;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    font-family: 'Segoe UI Bold', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
